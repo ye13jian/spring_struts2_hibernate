@@ -1,4 +1,4 @@
-package com.jianye.spring.controller;
+package com.jianye.spring.action;
 
 import java.util.List;
 
@@ -14,11 +14,11 @@ import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.opensymphony.xwork2.Preparable;
 
-@Namespace(value="/user")
+@Namespace("/user")
 public class UserInfoAction extends ActionSupport implements ModelDriven<UserInfoSsh>, Preparable {
 
 	/**
-	 * 
+	 * 序列化
 	 */
 	private static final long serialVersionUID = 4459352084934659231L;
 
